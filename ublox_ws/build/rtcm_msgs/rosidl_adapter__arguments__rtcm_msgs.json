@@ -1,0 +1,6 @@
+{
+  "package_name": "rtcm_msgs",
+  "non_idl_tuples": [
+    "/home/ej/Silverfish/ublox_ws/src/ublox/rtcm_msgs:msg/Message.msg"
+  ]
+}

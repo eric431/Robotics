@@ -1,0 +1,364 @@
+[1.241s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.241s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffaabab0d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffab603f40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffab603f40>>)
+[1.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.340s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ej/Silverfish/ublox_ws'
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extensions ['ignore', 'ignore_ament_install']
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'ignore'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'ignore_ament_install'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extensions ['colcon_pkg']
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'colcon_pkg'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extensions ['colcon_meta']
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'colcon_meta'
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extensions ['ros']
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'ros'
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extensions ['cmake', 'python']
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'cmake'
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'python'
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extensions ['python_setup_py']
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'python_setup_py'
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/rtcm_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/rtcm_msgs) by extension 'ignore'
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/rtcm_msgs) by extension 'ignore_ament_install'
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/rtcm_msgs) by extensions ['colcon_pkg']
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/rtcm_msgs) by extension 'colcon_pkg'
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/rtcm_msgs) by extensions ['colcon_meta']
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/rtcm_msgs) by extension 'colcon_meta'
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/rtcm_msgs) by extensions ['ros']
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/rtcm_msgs) by extension 'ros'
+[1.466s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ublox/rtcm_msgs' with type 'ros.ament_cmake' and name 'rtcm_msgs'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extensions ['ignore', 'ignore_ament_install']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extension 'ignore'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extension 'ignore_ament_install'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extensions ['colcon_pkg']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extension 'colcon_pkg'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extensions ['colcon_meta']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extension 'colcon_meta'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extensions ['ros']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extension 'ros'
+[1.471s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ublox/ublox' with type 'ros.ament_cmake' and name 'ublox'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extensions ['ignore', 'ignore_ament_install']
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extension 'ignore'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extension 'ignore_ament_install'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extensions ['colcon_pkg']
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extension 'colcon_pkg'
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extensions ['colcon_meta']
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extension 'colcon_meta'
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extensions ['ros']
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extension 'ros'
+[1.479s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ublox/ublox_gps' with type 'ros.ament_cmake' and name 'ublox_gps'
+[1.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extension 'ignore'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extension 'ignore_ament_install'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extensions ['colcon_pkg']
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extension 'colcon_pkg'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extensions ['colcon_meta']
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extension 'colcon_meta'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extensions ['ros']
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extension 'ros'
+[1.485s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ublox/ublox_msgs' with type 'ros.ament_cmake' and name 'ublox_msgs'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extensions ['ignore', 'ignore_ament_install']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extension 'ignore'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extension 'ignore_ament_install'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extensions ['colcon_pkg']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extension 'colcon_pkg'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extensions ['colcon_meta']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extension 'colcon_meta'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extensions ['ros']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extension 'ros'
+[1.489s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ublox/ublox_serialization' with type 'ros.ament_cmake' and name 'ublox_serialization'
+[1.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.608s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 183 installed packages in /opt/ros/humble
+[1.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.781s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_args' from command line to 'None'
+[1.781s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_target' from command line to 'None'
+[1.781s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.781s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.781s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.782s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.782s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.782s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.782s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.782s] DEBUG:colcon.colcon_core.verb:Building package 'rtcm_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ej/Silverfish/ublox_ws/build/rtcm_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs', 'merge_install': False, 'path': '/home/ej/Silverfish/ublox_ws/src/ublox/rtcm_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.786s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_args' from command line to 'None'
+[1.786s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target' from command line to 'None'
+[1.786s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.786s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_cache' from command line to 'False'
+[1.787s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_first' from command line to 'False'
+[1.787s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_force_configure' from command line to 'False'
+[1.787s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'ament_cmake_args' from command line to 'None'
+[1.787s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_cmake_args' from command line to 'None'
+[1.787s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.787s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_serialization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ej/Silverfish/ublox_ws/build/ublox_serialization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ej/Silverfish/ublox_ws/install/ublox_serialization', 'merge_install': False, 'path': '/home/ej/Silverfish/ublox_ws/src/ublox/ublox_serialization', 'symlink_install': False, 'test_result_base': None}
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_args' from command line to 'None'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target' from command line to 'None'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.792s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.792s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.792s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.792s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.792s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.792s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ej/Silverfish/ublox_ws/build/ublox_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ej/Silverfish/ublox_ws/install/ublox_msgs', 'merge_install': False, 'path': '/home/ej/Silverfish/ublox_ws/src/ublox/ublox_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.796s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_args' from command line to 'None'
+[1.796s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target' from command line to 'None'
+[1.796s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.796s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_cache' from command line to 'False'
+[1.796s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_first' from command line to 'False'
+[1.796s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_force_configure' from command line to 'False'
+[1.797s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'ament_cmake_args' from command line to 'None'
+[1.797s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_cmake_args' from command line to 'None'
+[1.797s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.797s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_gps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ej/Silverfish/ublox_ws/build/ublox_gps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ej/Silverfish/ublox_ws/install/ublox_gps', 'merge_install': False, 'path': '/home/ej/Silverfish/ublox_ws/src/ublox/ublox_gps', 'symlink_install': False, 'test_result_base': None}
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_args' from command line to 'None'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target' from command line to 'None'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_cache' from command line to 'False'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_first' from command line to 'False'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_force_configure' from command line to 'False'
+[1.802s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'ament_cmake_args' from command line to 'None'
+[1.802s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_cmake_args' from command line to 'None'
+[1.802s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.802s] DEBUG:colcon.colcon_core.verb:Building package 'ublox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ej/Silverfish/ublox_ws/build/ublox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ej/Silverfish/ublox_ws/install/ublox', 'merge_install': False, 'path': '/home/ej/Silverfish/ublox_ws/src/ublox/ublox', 'symlink_install': False, 'test_result_base': None}
+[1.804s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.819s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.821s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ej/Silverfish/ublox_ws/src/ublox/ublox_serialization' with build type 'ament_cmake'
+[1.821s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ej/Silverfish/ublox_ws/src/ublox/ublox_serialization'
+[1.843s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.844s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.844s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.868s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ej/Silverfish/ublox_ws/src/ublox/rtcm_msgs' with build type 'ament_cmake'
+[1.870s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ej/Silverfish/ublox_ws/src/ublox/rtcm_msgs'
+[1.881s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.882s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ej/Silverfish/ublox_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ej/Silverfish/ublox_ws/build/ublox_serialization -- -j4 -l4
+[1.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ej/Silverfish/ublox_ws/build/rtcm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ej/Silverfish/ublox_ws/build/rtcm_msgs -- -j4 -l4
+[2.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ej/Silverfish/ublox_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ej/Silverfish/ublox_ws/build/ublox_serialization -- -j4 -l4
+[2.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ej/Silverfish/ublox_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ej/Silverfish/ublox_ws/build/ublox_serialization
+[2.699s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_serialization)
+[2.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ej/Silverfish/ublox_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ej/Silverfish/ublox_ws/build/ublox_serialization
+[2.761s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_serialization' for CMake module files
+[2.765s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_serialization' for CMake config files
+[2.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_serialization', 'cmake_prefix_path')
+[2.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.ps1'
+[2.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.dsv'
+[2.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.sh'
+[2.794s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/bin'
+[2.795s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/lib/pkgconfig/ublox_serialization.pc'
+[2.798s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/lib/python3.10/site-packages'
+[2.799s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/bin'
+[2.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.ps1'
+[2.817s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.dsv'
+[2.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.sh'
+[2.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.bash'
+[2.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.zsh'
+[2.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ej/Silverfish/ublox_ws/install/ublox_serialization/share/colcon-core/packages/ublox_serialization)
+[3.014s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_serialization)
+[3.032s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_serialization' for CMake module files
+[3.036s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_serialization' for CMake config files
+[3.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_serialization', 'cmake_prefix_path')
+[3.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.ps1'
+[3.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.dsv'
+[3.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.sh'
+[3.057s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/bin'
+[3.058s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/lib/pkgconfig/ublox_serialization.pc'
+[3.060s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/lib/python3.10/site-packages'
+[3.062s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/bin'
+[3.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.ps1'
+[3.089s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.dsv'
+[3.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.sh'
+[3.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.bash'
+[3.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.zsh'
+[3.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ej/Silverfish/ublox_ws/install/ublox_serialization/share/colcon-core/packages/ublox_serialization)
+[3.104s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ej/Silverfish/ublox_ws/src/ublox/ublox_msgs' with build type 'ament_cmake'
+[3.105s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ej/Silverfish/ublox_ws/src/ublox/ublox_msgs'
+[3.119s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.120s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ej/Silverfish/ublox_ws/build/ublox_msgs': AMENT_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake --build /home/ej/Silverfish/ublox_ws/build/ublox_msgs -- -j4 -l4
+[5.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ej/Silverfish/ublox_ws/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ej/Silverfish/ublox_ws/build/rtcm_msgs -- -j4 -l4
+[6.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ej/Silverfish/ublox_ws/build/rtcm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ej/Silverfish/ublox_ws/build/rtcm_msgs
+[6.530s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtcm_msgs)
+[6.540s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs' for CMake module files
+[6.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ej/Silverfish/ublox_ws/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ej/Silverfish/ublox_ws/build/rtcm_msgs
+[6.547s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs' for CMake config files
+[6.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtcm_msgs', 'cmake_prefix_path')
+[6.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.ps1'
+[6.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.dsv'
+[6.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.sh'
+[6.566s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/lib'
+[6.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtcm_msgs', 'ld_library_path_lib')
+[6.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.ps1'
+[6.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.dsv'
+[6.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.sh'
+[6.584s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/bin'
+[6.585s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/lib/pkgconfig/rtcm_msgs.pc'
+[6.586s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/lib/python3.10/site-packages'
+[6.587s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/bin'
+[6.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/package.ps1'
+[6.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/package.dsv'
+[6.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/package.sh'
+[6.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/package.bash'
+[6.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/package.zsh'
+[6.619s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/colcon-core/packages/rtcm_msgs)
+[7.097s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtcm_msgs)
+[7.108s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs' for CMake module files
+[7.113s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs' for CMake config files
+[7.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtcm_msgs', 'cmake_prefix_path')
+[7.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.ps1'
+[7.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.dsv'
+[7.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.sh'
+[7.139s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/lib'
+[7.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtcm_msgs', 'ld_library_path_lib')
+[7.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.ps1'
+[7.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.dsv'
+[7.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.sh'
+[7.159s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/bin'
+[7.159s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/lib/pkgconfig/rtcm_msgs.pc'
+[7.160s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/lib/python3.10/site-packages'
+[7.162s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/bin'
+[7.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/package.ps1'
+[7.170s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/package.dsv'
+[7.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/package.sh'
+[7.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/package.bash'
+[7.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/package.zsh'
+[7.181s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/colcon-core/packages/rtcm_msgs)
+[7.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ej/Silverfish/ublox_ws/build/ublox_msgs' returned '0': AMENT_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake --build /home/ej/Silverfish/ublox_ws/build/ublox_msgs -- -j4 -l4
+[18.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ej/Silverfish/ublox_ws/build/ublox_msgs': AMENT_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake --install /home/ej/Silverfish/ublox_ws/build/ublox_msgs
+[20.270s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_msgs)
+[20.310s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_msgs' for CMake module files
+[20.338s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_msgs' for CMake config files
+[20.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'cmake_prefix_path')
+[20.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.ps1'
+[20.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.dsv'
+[20.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.sh'
+[20.411s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/lib'
+[20.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'ld_library_path_lib')
+[20.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.ps1'
+[20.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.dsv'
+[20.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.sh'
+[20.478s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/bin'
+[20.479s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/lib/pkgconfig/ublox_msgs.pc'
+[20.481s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/lib/python3.10/site-packages'
+[20.484s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/bin'
+[20.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/package.ps1'
+[20.501s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/package.dsv'
+[20.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/package.sh'
+[20.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/package.bash'
+[20.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/package.zsh'
+[20.530s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/colcon-core/packages/ublox_msgs)
+[20.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ej/Silverfish/ublox_ws/build/ublox_msgs' returned '0': AMENT_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake --install /home/ej/Silverfish/ublox_ws/build/ublox_msgs
+[40.712s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_msgs)
+[40.732s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_msgs' for CMake module files
+[40.739s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_msgs' for CMake config files
+[40.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'cmake_prefix_path')
+[40.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.ps1'
+[40.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.dsv'
+[40.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.sh'
+[40.806s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/lib'
+[40.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'ld_library_path_lib')
+[40.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.ps1'
+[40.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.dsv'
+[40.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.sh'
+[40.832s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/bin'
+[40.833s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/lib/pkgconfig/ublox_msgs.pc'
+[40.835s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/lib/python3.10/site-packages'
+[40.837s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/bin'
+[40.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/package.ps1'
+[40.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/package.dsv'
+[40.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/package.sh'
+[40.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/package.bash'
+[40.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/package.zsh'
+[40.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/colcon-core/packages/ublox_msgs)
+[40.901s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ej/Silverfish/ublox_ws/src/ublox/ublox_gps' with build type 'ament_cmake'
+[40.902s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ej/Silverfish/ublox_ws/src/ublox/ublox_gps'
+[40.914s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[40.918s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[41.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ej/Silverfish/ublox_ws/build/ublox_gps': AMENT_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs:/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs:/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs/lib:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ej/Silverfish/ublox_ws/build/ublox_gps -- -j4 -l4
+[43.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ej/Silverfish/ublox_ws/build/ublox_gps' returned '2': AMENT_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs:/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs:/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs/lib:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ej/Silverfish/ublox_ws/build/ublox_gps -- -j4 -l4
+[44.404s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_gps)
+[44.420s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_gps' for CMake module files
+[44.423s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_gps' for CMake config files
+[44.424s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_gps/bin'
+[44.425s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_gps/lib/pkgconfig/ublox_gps.pc'
+[44.426s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_gps/lib/python3.10/site-packages'
+[44.427s] Level 1:colcon.colcon_core.environment:checking '/home/ej/Silverfish/ublox_ws/install/ublox_gps/bin'
+[44.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/package.ps1'
+[44.434s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/package.dsv'
+[44.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/package.sh'
+[44.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/package.bash'
+[44.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/package.zsh'
+[44.445s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ej/Silverfish/ublox_ws/install/ublox_gps/share/colcon-core/packages/ublox_gps)
+[44.457s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[44.458s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[44.459s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[44.459s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[44.502s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[44.503s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[44.503s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[44.567s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[44.579s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ej/Silverfish/ublox_ws/install/local_setup.ps1'
+[44.583s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ej/Silverfish/ublox_ws/install/_local_setup_util_ps1.py'
+[44.590s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ej/Silverfish/ublox_ws/install/setup.ps1'
+[44.601s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ej/Silverfish/ublox_ws/install/local_setup.sh'
+[44.606s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ej/Silverfish/ublox_ws/install/_local_setup_util_sh.py'
+[44.611s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ej/Silverfish/ublox_ws/install/setup.sh'
+[44.623s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ej/Silverfish/ublox_ws/install/local_setup.bash'
+[44.628s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ej/Silverfish/ublox_ws/install/setup.bash'
+[44.636s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ej/Silverfish/ublox_ws/install/local_setup.zsh'
+[44.640s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ej/Silverfish/ublox_ws/install/setup.zsh'

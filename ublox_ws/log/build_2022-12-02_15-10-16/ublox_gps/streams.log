@@ -1,0 +1,116 @@
+[0.077s] Invoking command in '/home/ej/Silverfish/ublox_ws/build/ublox_gps': AMENT_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs:/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs:/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs/lib:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ej/Silverfish/ublox_ws/build/ublox_gps -- -j4 -l4
+[0.228s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.064s] -- Found diagnostic_msgs: 4.2.2 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[1.229s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.240s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.268s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.324s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.912s] -- Found diagnostic_updater: 3.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[2.129s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.136s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.945s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.564s] -- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.747s] -- Found rclcpp_components: 16.0.2 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.982s] -- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.321s] -- Found tf2: 0.25.1 (/opt/ros/humble/share/tf2/cmake)
+[4.350s] -- Found ublox_msgs: 2.3.0 (/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/cmake)
+[4.744s] -- Found rtcm_msgs: 1.1.0 (/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/share/rtcm_msgs/cmake)
+[5.366s] -- Configuring done
+[5.832s] -- Generating done
+[5.844s] -- Build files have been written to: /home/ej/Silverfish/ublox_ws/build/ublox_gps
+[6.001s] [35m[1mConsolidate compiler generated dependencies of target ublox_gps[0m
+[6.132s] [  4%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/adr_udr_product.cpp.o[0m
+[6.137s] [  9%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gnss.cpp.o[0m
+[8.003s] [ 13%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hp_pos_rec_product.cpp.o[0m
+[9.050s] [ 18%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_ref_product.cpp.o[0m
+[10.139s] [ 22%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gps.cpp.o[0m
+[102.360s] [ 27%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/node.cpp.o[0m
+[138.467s] [ 31%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_pa.cpp.o[0m
+[140.537s] [ 36%] [32mBuilding C object CMakeFiles/ublox_gps.dir/src/mkgmtime.c.o[0m
+[140.890s] [ 40%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_rov_product.cpp.o[0m
+[243.835s] [ 45%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware.cpp.o[0m
+[244.858s] [ 50%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/tim_product.cpp.o[0m
+[245.944s] [ 54%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware6.cpp.o[0m
+[247.144s] [ 59%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_product.cpp.o[0m
+[334.669s] [ 63%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware9.cpp.o[0m
+[374.419s] [ 72%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware7.cpp.o[0m
+[374.421s] [ 72%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware8.cpp.o[0m
+[428.177s] [ 77%] [32m[1mLinking CXX shared library libublox_gps.so[0m
+[453.233s] [ 77%] Built target ublox_gps
+[453.353s] [ 81%] [32mBuilding CXX object CMakeFiles/ublox_gps_node.dir/src/node_main.cpp.o[0m
+[453.356s] [ 86%] [32mBuilding CXX object CMakeFiles/ublox_logger.dir/src/logger_node_pa.cpp.o[0m
+[453.359s] [ 90%] [32mBuilding CXX object CMakeFiles/ublox_logger.dir/src/raw_data_pa.cpp.o[0m
+[496.913s] [ 95%] [32m[1mLinking CXX executable ublox_gps_node[0m
+[511.287s] [ 95%] Built target ublox_gps_node
+[520.025s] [100%] [32m[1mLinking CXX executable ublox_logger[0m
+[524.238s] [100%] Built target ublox_logger
+[524.294s] Invoked command in '/home/ej/Silverfish/ublox_ws/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs:/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs:/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs/lib:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ej/Silverfish/ublox_ws/build/ublox_gps -- -j4 -l4
+[524.731s] Invoking command in '/home/ej/Silverfish/ublox_ws/build/ublox_gps': AMENT_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs:/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs:/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs/lib:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ej/Silverfish/ublox_ws/build/ublox_gps
+[524.768s] -- Install configuration: ""
+[524.769s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/lib/libublox_gps.so
+[525.038s] -- Set runtime path of "/home/ej/Silverfish/ublox_ws/install/ublox_gps/lib/libublox_gps.so" to ""
+[525.039s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/lib/ublox_gps/ublox_gps_node
+[525.043s] -- Set runtime path of "/home/ej/Silverfish/ublox_ws/install/ublox_gps/lib/ublox_gps/ublox_gps_node" to ""
+[525.043s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/lib/ublox_gps/ublox_logger
+[525.076s] -- Set runtime path of "/home/ej/Silverfish/ublox_ws/install/ublox_gps/lib/ublox_gps/ublox_logger" to ""
+[525.077s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps
+[525.077s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps
+[525.078s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware.hpp
+[525.079s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/adr_udr_product.hpp
+[525.080s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/hpg_ref_product.hpp
+[525.081s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/raw_data_pa.hpp
+[525.082s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware7.hpp
+[525.083s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/mkgmtime.h
+[525.085s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/tim_product.hpp
+[525.086s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/node.hpp
+[525.087s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/utils.hpp
+[525.088s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware8.hpp
+[525.089s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/callback.hpp
+[525.090s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware7plus.hpp
+[525.092s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware9.hpp
+[525.093s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/gps.hpp
+[525.094s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/rtcm.hpp
+[525.095s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/async_worker.hpp
+[525.097s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/hp_pos_rec_product.hpp
+[525.098s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/hpg_rov_product.hpp
+[525.099s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/worker.hpp
+[525.100s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/fts_product.hpp
+[525.102s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware6.hpp
+[525.103s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_topic_diagnostic.hpp
+[525.107s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/gnss.hpp
+[525.111s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/component_interface.hpp
+[525.114s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/fix_diagnostic.hpp
+[525.116s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_gps/raw_data_product.hpp
+[525.117s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/launch
+[525.118s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-composed-launch.py
+[525.120s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-launch.py
+[525.122s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/config
+[525.122s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/config/c94_m8p_rover.yaml
+[525.124s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/config/c94_m8t_rover.yaml
+[525.126s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/config/c94_m8p_base.yaml
+[525.129s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/config/nmea.yaml
+[525.131s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/config/c94_m8t_base.yaml
+[525.134s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/config/zed_f9p.yaml
+[525.136s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/config/neo_m8u_rover.yaml
+[525.140s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ament_index/resource_index/package_run_dependencies/ublox_gps
+[525.142s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ament_index/resource_index/parent_prefix_path/ublox_gps
+[525.144s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.sh
+[525.147s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.dsv
+[525.148s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/environment/path.sh
+[525.151s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/environment/path.dsv
+[525.152s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/local_setup.bash
+[525.153s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/local_setup.sh
+[525.154s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/local_setup.zsh
+[525.156s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/local_setup.dsv
+[525.157s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/package.dsv
+[525.159s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ament_index/resource_index/packages/ublox_gps
+[525.161s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ament_index/resource_index/rclcpp_components/ublox_gps
+[525.162s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/cmake/export_ublox_gpsExport.cmake
+[525.164s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/cmake/export_ublox_gpsExport-noconfig.cmake
+[525.165s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/cmake/ament_cmake_export_include_directories-extras.cmake
+[525.167s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/cmake/ament_cmake_export_targets-extras.cmake
+[525.168s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig.cmake
+[525.169s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig-version.cmake
+[525.171s] -- Installing: /home/ej/Silverfish/ublox_ws/install/ublox_gps/share/ublox_gps/package.xml
+[525.184s] Invoked command in '/home/ej/Silverfish/ublox_ws/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs:/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs:/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs/lib:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ej/Silverfish/ublox_ws/build/ublox_gps

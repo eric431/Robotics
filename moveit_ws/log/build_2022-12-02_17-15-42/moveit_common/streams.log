@@ -1,0 +1,34 @@
+[0.202s] Invoking command in '/home/ej/Silverfish/moveit_ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ej/Silverfish/ntrip_ws/install/ntrip_client:/opt/ros/humble /usr/bin/cmake /home/ej/Silverfish/moveit_ws/src/moveit2/moveit_common -DCMAKE_INSTALL_PREFIX=/home/ej/Silverfish/moveit_ws/install/moveit_common
+[2.714s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.715s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.100s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.399s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.429s] -- Added test 'lint_cmake' to check CMake code style
+[4.445s] -- Added test 'xmllint' to check XML markup files
+[4.470s] -- Configuring done
+[4.509s] -- Generating done
+[4.520s] -- Build files have been written to: /home/ej/Silverfish/moveit_ws/build/moveit_common
+[4.537s] Invoked command in '/home/ej/Silverfish/moveit_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ej/Silverfish/ntrip_ws/install/ntrip_client:/opt/ros/humble /usr/bin/cmake /home/ej/Silverfish/moveit_ws/src/moveit2/moveit_common -DCMAKE_INSTALL_PREFIX=/home/ej/Silverfish/moveit_ws/install/moveit_common
+[4.555s] Invoking command in '/home/ej/Silverfish/moveit_ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ej/Silverfish/ntrip_ws/install/ntrip_client:/opt/ros/humble /usr/bin/cmake --build /home/ej/Silverfish/moveit_ws/build/moveit_common -- -j4 -l4
+[4.890s] Invoked command in '/home/ej/Silverfish/moveit_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ej/Silverfish/ntrip_ws/install/ntrip_client:/opt/ros/humble /usr/bin/cmake --build /home/ej/Silverfish/moveit_ws/build/moveit_common -- -j4 -l4
+[5.191s] Invoking command in '/home/ej/Silverfish/moveit_ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ej/Silverfish/ntrip_ws/install/ntrip_client:/opt/ros/humble /usr/bin/cmake --install /home/ej/Silverfish/moveit_ws/build/moveit_common
+[5.266s] -- Install configuration: ""
+[5.270s] -- Installing: /home/ej/Silverfish/moveit_ws/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[5.272s] -- Installing: /home/ej/Silverfish/moveit_ws/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[5.276s] -- Installing: /home/ej/Silverfish/moveit_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[5.280s] -- Installing: /home/ej/Silverfish/moveit_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[5.283s] -- Installing: /home/ej/Silverfish/moveit_ws/install/moveit_common/share/moveit_common/environment/path.sh
+[5.285s] -- Installing: /home/ej/Silverfish/moveit_ws/install/moveit_common/share/moveit_common/environment/path.dsv
+[5.288s] -- Installing: /home/ej/Silverfish/moveit_ws/install/moveit_common/share/moveit_common/local_setup.bash
+[5.292s] -- Installing: /home/ej/Silverfish/moveit_ws/install/moveit_common/share/moveit_common/local_setup.sh
+[5.295s] -- Installing: /home/ej/Silverfish/moveit_ws/install/moveit_common/share/moveit_common/local_setup.zsh
+[5.298s] -- Installing: /home/ej/Silverfish/moveit_ws/install/moveit_common/share/moveit_common/local_setup.dsv
+[5.301s] -- Installing: /home/ej/Silverfish/moveit_ws/install/moveit_common/share/moveit_common/package.dsv
+[5.305s] -- Installing: /home/ej/Silverfish/moveit_ws/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[5.311s] -- Installing: /home/ej/Silverfish/moveit_ws/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[5.318s] -- Installing: /home/ej/Silverfish/moveit_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[5.333s] -- Installing: /home/ej/Silverfish/moveit_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[5.348s] -- Installing: /home/ej/Silverfish/moveit_ws/install/moveit_common/share/moveit_common/package.xml
+[5.353s] -- Up-to-date: /home/ej/Silverfish/moveit_ws/install/moveit_common/share/moveit_common/cmake
+[5.356s] -- Installing: /home/ej/Silverfish/moveit_ws/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[5.389s] Invoked command in '/home/ej/Silverfish/moveit_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ej/Silverfish/ntrip_ws/install/ntrip_client:/opt/ros/humble /usr/bin/cmake --install /home/ej/Silverfish/moveit_ws/build/moveit_common

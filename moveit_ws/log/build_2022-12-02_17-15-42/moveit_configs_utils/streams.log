@@ -1,0 +1,49 @@
+[6.281s] Invoking command in '/home/ej/Silverfish/moveit_ws/src/moveit2/moveit_configs_utils': PYTHONPATH=/home/ej/Silverfish/moveit_ws/build/moveit_configs_utils/prefix_override:/home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/ej/Silverfish/moveit_ws/build/moveit_configs_utils/build install --record /home/ej/Silverfish/moveit_ws/build/moveit_configs_utils/install.log --single-version-externally-managed
+[9.033s] running egg_info
+[9.038s] creating ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info
+[9.039s] writing ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/PKG-INFO
+[9.041s] writing dependency_links to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/dependency_links.txt
+[9.042s] writing entry points to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/entry_points.txt
+[9.043s] writing requirements to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/requires.txt
+[9.044s] writing top-level names to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/top_level.txt
+[9.046s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[9.057s] reading manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[9.066s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[9.073s] running build
+[9.077s] running build_py
+[9.087s] creating /home/ej/Silverfish/moveit_ws/build/moveit_configs_utils/build
+[9.092s] creating /home/ej/Silverfish/moveit_ws/build/moveit_configs_utils/build/lib
+[9.095s] creating /home/ej/Silverfish/moveit_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[9.111s] copying moveit_configs_utils/moveit_configs_builder.py -> /home/ej/Silverfish/moveit_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[9.116s] copying moveit_configs_utils/__init__.py -> /home/ej/Silverfish/moveit_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[9.120s] copying moveit_configs_utils/launches.py -> /home/ej/Silverfish/moveit_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[9.122s] copying moveit_configs_utils/launch_utils.py -> /home/ej/Silverfish/moveit_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[9.135s] running install
+[9.150s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.152s]   warnings.warn(
+[9.154s] running install_lib
+[9.161s] creating /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[9.167s] copying /home/ej/Silverfish/moveit_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/moveit_configs_builder.py -> /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[9.178s] copying /home/ej/Silverfish/moveit_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/__init__.py -> /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[9.188s] copying /home/ej/Silverfish/moveit_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/launches.py -> /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[9.196s] copying /home/ej/Silverfish/moveit_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/launch_utils.py -> /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[9.209s] byte-compiling /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/moveit_configs_builder.py to moveit_configs_builder.cpython-310.pyc
+[9.232s] byte-compiling /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/__init__.py to __init__.cpython-310.pyc
+[9.238s] byte-compiling /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/launches.py to launches.cpython-310.pyc
+[9.250s] byte-compiling /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/launch_utils.py to launch_utils.cpython-310.pyc
+[9.256s] running install_data
+[9.264s] creating /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/share/ament_index
+[9.267s] creating /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/share/ament_index/resource_index
+[9.269s] creating /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[9.272s] copying resource/moveit_configs_utils -> /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[9.275s] copying package.xml -> /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/share/moveit_configs_utils
+[9.279s] creating /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[9.281s] copying default_configs/ompl_defaults.yaml -> /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[9.282s] copying default_configs/ompl_planning.yaml -> /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[9.283s] copying default_configs/chomp_planning.yaml -> /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[9.285s] copying default_configs/pilz_industrial_motion_planner_planning.yaml -> /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[9.287s] running install_egg_info
+[9.307s] Copying ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info to /home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils-2.5.3-py3.10.egg-info
+[9.322s] running install_scripts
+[9.556s] writing list of installed files to '/home/ej/Silverfish/moveit_ws/build/moveit_configs_utils/install.log'
+[9.922s] Invoked command in '/home/ej/Silverfish/moveit_ws/src/moveit2/moveit_configs_utils' returned '0': PYTHONPATH=/home/ej/Silverfish/moveit_ws/build/moveit_configs_utils/prefix_override:/home/ej/Silverfish/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/ej/Silverfish/moveit_ws/build/moveit_configs_utils/build install --record /home/ej/Silverfish/moveit_ws/build/moveit_configs_utils/install.log --single-version-externally-managed

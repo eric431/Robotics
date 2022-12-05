@@ -1,0 +1,9 @@
+/home/ej/Silverfish/ublox_ws/build/ublox_serialization/CMakeFiles/uninstall.dir
+/home/ej/Silverfish/ublox_ws/build/ublox_serialization/CMakeFiles/ublox_serialization_uninstall.dir
+/home/ej/Silverfish/ublox_ws/build/ublox_serialization/CMakeFiles/test.dir
+/home/ej/Silverfish/ublox_ws/build/ublox_serialization/CMakeFiles/edit_cache.dir
+/home/ej/Silverfish/ublox_ws/build/ublox_serialization/CMakeFiles/rebuild_cache.dir
+/home/ej/Silverfish/ublox_ws/build/ublox_serialization/CMakeFiles/list_install_components.dir
+/home/ej/Silverfish/ublox_ws/build/ublox_serialization/CMakeFiles/install.dir
+/home/ej/Silverfish/ublox_ws/build/ublox_serialization/CMakeFiles/install/local.dir
+/home/ej/Silverfish/ublox_ws/build/ublox_serialization/CMakeFiles/install/strip.dir

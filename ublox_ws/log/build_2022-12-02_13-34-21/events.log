@@ -1,0 +1,283 @@
+[0.000000] (-) TimerEvent: {}
+[0.006029] (-) JobUnselected: {'identifier': 'ublox'}
+[0.008626] (-) JobUnselected: {'identifier': 'ublox_msgs'}
+[0.013737] (-) JobUnselected: {'identifier': 'ublox_serialization'}
+[0.015007] (ublox_gps) JobQueued: {'identifier': 'ublox_gps', 'dependencies': OrderedDict([('ublox_serialization', '/home/ej/Silverfish/ublox_ws/install/ublox_serialization'), ('ublox_msgs', '/home/ej/Silverfish/ublox_ws/install/ublox_msgs')])}
+[0.017994] (ublox_gps) JobStarted: {'identifier': 'ublox_gps'}
+[0.095435] (-) TimerEvent: {}
+[0.156410] (ublox_gps) JobProgress: {'identifier': 'ublox_gps', 'progress': 'cmake'}
+[0.162828] (ublox_gps) Command: {'cmd': ['/usr/bin/cmake', '/home/ej/Silverfish/ublox_ws/src/ublox/ublox_gps', '-DCMAKE_INSTALL_PREFIX=/home/ej/Silverfish/ublox_ws/install/ublox_gps'], 'cwd': '/home/ej/Silverfish/ublox_ws/build/ublox_gps', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'ej'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ej'), ('OLDPWD', '/home/ej/Silverfish'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1859'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ej'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ej'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ej-desktop:@/tmp/.ICE-unix/1808,unix/ej-desktop:/tmp/.ICE-unix/1808'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d6852f6e_c7d7_4aeb_8f40_75243857dc68'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.547BW1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ej/Silverfish/ublox_ws/install/ublox_msgs:/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ej/Silverfish/ublox_ws/build/ublox_gps'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ej/Silverfish/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ej/Silverfish/ublox_ws/install/ublox_msgs:/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/opt/ros/humble')]), 'shell': False}
+[0.196381] (-) TimerEvent: {}
+[0.301374] (-) TimerEvent: {}
+[0.306701] (ublox_gps) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.401602] (-) TimerEvent: {}
+[0.504787] (-) TimerEvent: {}
+[0.608278] (-) TimerEvent: {}
+[0.710945] (-) TimerEvent: {}
+[0.812962] (-) TimerEvent: {}
+[0.915103] (-) TimerEvent: {}
+[1.024051] (-) TimerEvent: {}
+[1.127900] (-) TimerEvent: {}
+[1.230582] (-) TimerEvent: {}
+[1.332922] (-) TimerEvent: {}
+[1.434367] (-) TimerEvent: {}
+[1.536042] (-) TimerEvent: {}
+[1.637367] (-) TimerEvent: {}
+[1.739429] (-) TimerEvent: {}
+[1.841487] (-) TimerEvent: {}
+[1.944670] (-) TimerEvent: {}
+[2.048410] (-) TimerEvent: {}
+[2.158202] (-) TimerEvent: {}
+[2.161390] (ublox_gps) StdoutLine: {'line': b'-- Found diagnostic_msgs: 4.2.2 (/opt/ros/humble/share/diagnostic_msgs/cmake)\n'}
+[2.258658] (-) TimerEvent: {}
+[2.360864] (-) TimerEvent: {}
+[2.463222] (-) TimerEvent: {}
+[2.487588] (ublox_gps) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.512567] (ublox_gps) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.563738] (-) TimerEvent: {}
+[2.582902] (ublox_gps) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.663935] (-) TimerEvent: {}
+[2.693666] (ublox_gps) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.765188] (-) TimerEvent: {}
+[2.848860] (ublox_gps) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.865596] (-) TimerEvent: {}
+[2.968119] (-) TimerEvent: {}
+[3.071404] (-) TimerEvent: {}
+[3.173662] (-) TimerEvent: {}
+[3.277386] (-) TimerEvent: {}
+[3.379883] (-) TimerEvent: {}
+[3.483110] (-) TimerEvent: {}
+[3.586433] (-) TimerEvent: {}
+[3.689601] (-) TimerEvent: {}
+[3.792145] (-) TimerEvent: {}
+[3.895223] (-) TimerEvent: {}
+[3.998888] (-) TimerEvent: {}
+[4.100172] (-) TimerEvent: {}
+[4.202284] (-) TimerEvent: {}
+[4.305163] (-) TimerEvent: {}
+[4.408140] (-) TimerEvent: {}
+[4.528392] (-) TimerEvent: {}
+[4.631892] (-) TimerEvent: {}
+[4.734307] (-) TimerEvent: {}
+[4.838389] (-) TimerEvent: {}
+[4.940586] (-) TimerEvent: {}
+[5.043224] (-) TimerEvent: {}
+[5.150843] (-) TimerEvent: {}
+[5.254168] (-) TimerEvent: {}
+[5.358347] (-) TimerEvent: {}
+[5.461701] (-) TimerEvent: {}
+[5.565826] (-) TimerEvent: {}
+[5.668738] (-) TimerEvent: {}
+[5.770479] (-) TimerEvent: {}
+[5.873283] (-) TimerEvent: {}
+[5.976053] (-) TimerEvent: {}
+[6.079104] (-) TimerEvent: {}
+[6.181116] (-) TimerEvent: {}
+[6.285245] (-) TimerEvent: {}
+[6.388273] (-) TimerEvent: {}
+[6.491041] (-) TimerEvent: {}
+[6.594633] (-) TimerEvent: {}
+[6.698342] (-) TimerEvent: {}
+[6.733720] (ublox_gps) StdoutLine: {'line': b'-- Found rosgraph_msgs: 1.2.1 (/opt/ros/humble/share/rosgraph_msgs/cmake)\n'}
+[6.798721] (-) TimerEvent: {}
+[6.900758] (-) TimerEvent: {}
+[7.003523] (-) TimerEvent: {}
+[7.105257] (-) TimerEvent: {}
+[7.207311] (-) TimerEvent: {}
+[7.309497] (-) TimerEvent: {}
+[7.410803] (-) TimerEvent: {}
+[7.513430] (-) TimerEvent: {}
+[7.616307] (-) TimerEvent: {}
+[7.719052] (-) TimerEvent: {}
+[7.822471] (-) TimerEvent: {}
+[7.925418] (-) TimerEvent: {}
+[8.027474] (-) TimerEvent: {}
+[8.131788] (-) TimerEvent: {}
+[8.233064] (-) TimerEvent: {}
+[8.335241] (-) TimerEvent: {}
+[8.439080] (-) TimerEvent: {}
+[8.542140] (-) TimerEvent: {}
+[8.645221] (-) TimerEvent: {}
+[8.747660] (-) TimerEvent: {}
+[8.850184] (-) TimerEvent: {}
+[8.952919] (-) TimerEvent: {}
+[9.055017] (-) TimerEvent: {}
+[9.156236] (-) TimerEvent: {}
+[9.258188] (-) TimerEvent: {}
+[9.361252] (-) TimerEvent: {}
+[9.462673] (-) TimerEvent: {}
+[9.573462] (-) TimerEvent: {}
+[9.675395] (-) TimerEvent: {}
+[9.776437] (-) TimerEvent: {}
+[9.878007] (-) TimerEvent: {}
+[9.980979] (-) TimerEvent: {}
+[10.083810] (-) TimerEvent: {}
+[10.186270] (-) TimerEvent: {}
+[10.289203] (-) TimerEvent: {}
+[10.391687] (-) TimerEvent: {}
+[10.495405] (-) TimerEvent: {}
+[10.598048] (-) TimerEvent: {}
+[10.700332] (-) TimerEvent: {}
+[10.801662] (-) TimerEvent: {}
+[10.904081] (-) TimerEvent: {}
+[11.006647] (-) TimerEvent: {}
+[11.109580] (-) TimerEvent: {}
+[11.212162] (-) TimerEvent: {}
+[11.314991] (-) TimerEvent: {}
+[11.418300] (-) TimerEvent: {}
+[11.520805] (-) TimerEvent: {}
+[11.623812] (-) TimerEvent: {}
+[11.727572] (-) TimerEvent: {}
+[11.829287] (-) TimerEvent: {}
+[11.932704] (-) TimerEvent: {}
+[12.034643] (-) TimerEvent: {}
+[12.138438] (-) TimerEvent: {}
+[12.242205] (-) TimerEvent: {}
+[12.345456] (-) TimerEvent: {}
+[12.449370] (-) TimerEvent: {}
+[12.552635] (-) TimerEvent: {}
+[12.655773] (-) TimerEvent: {}
+[12.759112] (-) TimerEvent: {}
+[12.861119] (-) TimerEvent: {}
+[12.966443] (-) TimerEvent: {}
+[13.070535] (-) TimerEvent: {}
+[13.174784] (-) TimerEvent: {}
+[13.279200] (-) TimerEvent: {}
+[13.381708] (-) TimerEvent: {}
+[13.485423] (-) TimerEvent: {}
+[13.589749] (-) TimerEvent: {}
+[13.693050] (-) TimerEvent: {}
+[13.796082] (-) TimerEvent: {}
+[13.898632] (-) TimerEvent: {}
+[14.002373] (-) TimerEvent: {}
+[14.106291] (-) TimerEvent: {}
+[14.207980] (-) TimerEvent: {}
+[14.310685] (-) TimerEvent: {}
+[14.413273] (-) TimerEvent: {}
+[14.515276] (-) TimerEvent: {}
+[14.626262] (-) TimerEvent: {}
+[14.730383] (-) TimerEvent: {}
+[14.833028] (-) TimerEvent: {}
+[14.934297] (-) TimerEvent: {}
+[15.036833] (-) TimerEvent: {}
+[15.141248] (-) TimerEvent: {}
+[15.244237] (-) TimerEvent: {}
+[15.347340] (-) TimerEvent: {}
+[15.449879] (-) TimerEvent: {}
+[15.551476] (-) TimerEvent: {}
+[15.654982] (-) TimerEvent: {}
+[15.757628] (-) TimerEvent: {}
+[15.860029] (-) TimerEvent: {}
+[15.963650] (-) TimerEvent: {}
+[16.066421] (-) TimerEvent: {}
+[16.172825] (-) TimerEvent: {}
+[16.275308] (-) TimerEvent: {}
+[16.378323] (-) TimerEvent: {}
+[16.481377] (-) TimerEvent: {}
+[16.583299] (-) TimerEvent: {}
+[16.685755] (-) TimerEvent: {}
+[16.788411] (-) TimerEvent: {}
+[16.893277] (-) TimerEvent: {}
+[16.996864] (-) TimerEvent: {}
+[17.098528] (-) TimerEvent: {}
+[17.201277] (-) TimerEvent: {}
+[17.304524] (-) TimerEvent: {}
+[17.406883] (-) TimerEvent: {}
+[17.508405] (-) TimerEvent: {}
+[17.613157] (-) TimerEvent: {}
+[17.715280] (-) TimerEvent: {}
+[17.816802] (-) TimerEvent: {}
+[17.918942] (-) TimerEvent: {}
+[18.021293] (-) TimerEvent: {}
+[18.123767] (-) TimerEvent: {}
+[18.226445] (-) TimerEvent: {}
+[18.328838] (-) TimerEvent: {}
+[18.430659] (-) TimerEvent: {}
+[18.537779] (-) TimerEvent: {}
+[18.640533] (-) TimerEvent: {}
+[18.743006] (-) TimerEvent: {}
+[18.844854] (-) TimerEvent: {}
+[18.948399] (-) TimerEvent: {}
+[19.028612] (ublox_gps) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[19.053406] (-) TimerEvent: {}
+[19.156086] (-) TimerEvent: {}
+[19.258195] (-) TimerEvent: {}
+[19.320812] (ublox_gps) StdoutLine: {'line': b'-- Found rcl_interfaces: 1.2.1 (/opt/ros/humble/share/rcl_interfaces/cmake)\n'}
+[19.358415] (-) TimerEvent: {}
+[19.460050] (-) TimerEvent: {}
+[19.566475] (ublox_gps) StdoutLine: {'line': b'-- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[19.568255] (-) TimerEvent: {}
+[19.670931] (-) TimerEvent: {}
+[19.764268] (ublox_gps) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[19.771283] (-) TimerEvent: {}
+[19.790285] (ublox_gps) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[19.871937] (-) TimerEvent: {}
+[19.974596] (-) TimerEvent: {}
+[20.077149] (-) TimerEvent: {}
+[20.179058] (-) TimerEvent: {}
+[20.281321] (-) TimerEvent: {}
+[20.385543] (-) TimerEvent: {}
+[20.488767] (-) TimerEvent: {}
+[20.589702] (-) TimerEvent: {}
+[20.690989] (-) TimerEvent: {}
+[20.792494] (-) TimerEvent: {}
+[20.893800] (-) TimerEvent: {}
+[20.996851] (-) TimerEvent: {}
+[21.098491] (-) TimerEvent: {}
+[21.122778] (ublox_gps) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[21.200443] (-) TimerEvent: {}
+[21.305660] (-) TimerEvent: {}
+[21.409324] (-) TimerEvent: {}
+[21.514999] (-) TimerEvent: {}
+[21.619868] (-) TimerEvent: {}
+[21.722924] (-) TimerEvent: {}
+[21.826400] (-) TimerEvent: {}
+[21.929163] (-) TimerEvent: {}
+[22.030646] (-) TimerEvent: {}
+[22.085701] (ublox_gps) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.2 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[22.131236] (-) TimerEvent: {}
+[22.233152] (-) TimerEvent: {}
+[22.334521] (-) TimerEvent: {}
+[22.437082] (-) TimerEvent: {}
+[22.538821] (-) TimerEvent: {}
+[22.556755] (ublox_gps) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[22.639094] (-) TimerEvent: {}
+[22.741006] (-) TimerEvent: {}
+[22.844828] (-) TimerEvent: {}
+[22.946601] (-) TimerEvent: {}
+[23.048046] (-) TimerEvent: {}
+[23.074450] (ublox_gps) StdoutLine: {'line': b'-- Found tf2: 0.25.1 (/opt/ros/humble/share/tf2/cmake)\n'}
+[23.131816] (ublox_gps) StdoutLine: {'line': b'-- Found ublox_msgs: 2.3.0 (/home/ej/Silverfish/ublox_ws/install/ublox_msgs/share/ublox_msgs/cmake)\n'}
+[23.148740] (-) TimerEvent: {}
+[23.250879] (-) TimerEvent: {}
+[23.353671] (-) TimerEvent: {}
+[23.457358] (-) TimerEvent: {}
+[23.558424] (-) TimerEvent: {}
+[23.660113] (-) TimerEvent: {}
+[23.762401] (-) TimerEvent: {}
+[23.811520] (ublox_gps) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:28 (find_package):\n'}
+[23.817717] (ublox_gps) StderrLine: {'line': b'  By not providing "Findrtcm_msgs.cmake" in CMAKE_MODULE_PATH this project\n'}
+[23.822998] (ublox_gps) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[23.823932] (ublox_gps) StderrLine: {'line': b'  "rtcm_msgs", but CMake did not find one.\n'}
+[23.824840] (ublox_gps) StderrLine: {'line': b'\n'}
+[23.832351] (ublox_gps) StderrLine: {'line': b'  Could not find a package configuration file provided by "rtcm_msgs" with\n'}
+[23.833875] (ublox_gps) StderrLine: {'line': b'  any of the following names:\n'}
+[23.834879] (ublox_gps) StderrLine: {'line': b'\n'}
+[23.836051] (ublox_gps) StderrLine: {'line': b'    rtcm_msgsConfig.cmake\n'}
+[23.846697] (ublox_gps) StderrLine: {'line': b'    rtcm_msgs-config.cmake\n'}
+[23.852344] (ublox_gps) StderrLine: {'line': b'\n'}
+[23.864725] (-) TimerEvent: {}
+[23.877507] (ublox_gps) StderrLine: {'line': b'  Add the installation prefix of "rtcm_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[23.894711] (ublox_gps) StderrLine: {'line': b'  "rtcm_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[23.897557] (ublox_gps) StderrLine: {'line': b'  "rtcm_msgs" provides a separate development package or SDK, be sure it has\n'}
+[23.898447] (ublox_gps) StderrLine: {'line': b'  been installed.\n'}
+[23.901525] (ublox_gps) StderrLine: {'line': b'\n'}
+[23.902221] (ublox_gps) StderrLine: {'line': b'\x1b[0m\n'}
+[23.902783] (ublox_gps) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[23.903288] (ublox_gps) StdoutLine: {'line': b'See also "/home/ej/Silverfish/ublox_ws/build/ublox_gps/CMakeFiles/CMakeOutput.log".\n'}
+[23.917276] (ublox_gps) CommandEnded: {'returncode': 1}
+[23.965253] (-) TimerEvent: {}
+[24.068488] (-) TimerEvent: {}
+[24.172301] (-) TimerEvent: {}
+[24.193549] (ublox_gps) JobEnded: {'identifier': 'ublox_gps', 'rc': 1}
+[24.206822] (-) EventReactorShutdown: {}

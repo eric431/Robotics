@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.001053] (-) JobUnselected: {'identifier': 'rtcm_msgs'}
+[0.001899] (-) JobUnselected: {'identifier': 'ublox'}
+[0.002454] (-) JobUnselected: {'identifier': 'ublox_msgs'}
+[0.004548] (-) JobUnselected: {'identifier': 'ublox_serialization'}
+[0.004765] (ublox_gps) JobQueued: {'identifier': 'ublox_gps', 'dependencies': OrderedDict([('rtcm_msgs', '/home/ej/Silverfish/ublox_ws/src/install/rtcm_msgs'), ('ublox_serialization', '/home/ej/Silverfish/ublox_ws/src/install/ublox_serialization'), ('ublox_msgs', '/home/ej/Silverfish/ublox_ws/src/install/ublox_msgs')])}
+[0.005091] (ublox_gps) JobStarted: {'identifier': 'ublox_gps'}
+[0.100661] (-) TimerEvent: {}
+[0.120913] (ublox_gps) JobEnded: {'identifier': 'ublox_gps', 'rc': 1}
+[0.135158] (-) EventReactorShutdown: {}

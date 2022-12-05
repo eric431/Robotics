@@ -1,0 +1,29 @@
+[0.074s] Invoking command in '/home/ej/Silverfish/ublox_ws/build/ublox_gps': AMENT_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs:/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs:/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs/lib:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ej/Silverfish/ublox_ws/build/ublox_gps -- -j4 -l4
+[0.419s] [  4%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/adr_udr_product.cpp.o[0m
+[0.455s] [  9%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hp_pos_rec_product.cpp.o[0m
+[0.470s] [ 13%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_rov_product.cpp.o[0m
+[0.479s] [ 18%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_ref_product.cpp.o[0m
+[1.634s] [01m[K/home/ej/Silverfish/ublox_ws/src/ublox/ublox_gps/src/hp_pos_rec_product.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kdiagnostic_updater/diagnostic_updater.hpp: No such file or directory
+[1.636s]     7 | #include [01;31m[K<diagnostic_updater/diagnostic_updater.hpp>[m[K
+[1.639s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.640s] compilation terminated.
+[1.680s] gmake[2]: *** [CMakeFiles/ublox_gps.dir/build.make:118: CMakeFiles/ublox_gps.dir/src/hp_pos_rec_product.cpp.o] Error 1
+[1.680s] gmake[2]: *** Waiting for unfinished jobs....
+[1.726s] [01m[K/home/ej/Silverfish/ublox_ws/src/ublox/ublox_gps/src/hpg_rov_product.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kdiagnostic_updater/diagnostic_updater.hpp: No such file or directory
+[1.727s]     7 | #include [01;31m[K<diagnostic_updater/diagnostic_updater.hpp>[m[K
+[1.727s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.728s] compilation terminated.
+[1.737s] gmake[2]: *** [CMakeFiles/ublox_gps.dir/build.make:146: CMakeFiles/ublox_gps.dir/src/hpg_rov_product.cpp.o] Error 1
+[1.853s] [01m[K/home/ej/Silverfish/ublox_ws/src/ublox/ublox_gps/src/hpg_ref_product.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kdiagnostic_updater/diagnostic_updater.hpp: No such file or directory
+[1.855s]     9 | #include [01;31m[K<diagnostic_updater/diagnostic_updater.hpp>[m[K
+[1.855s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.856s] [01m[K/home/ej/Silverfish/ublox_ws/src/ublox/ublox_gps/src/adr_udr_product.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kdiagnostic_updater/diagnostic_updater.hpp: No such file or directory
+[1.857s]     8 | #include [01;31m[K<diagnostic_updater/diagnostic_updater.hpp>[m[K
+[1.858s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.859s] compilation terminated.
+[1.860s] compilation terminated.
+[1.863s] gmake[2]: *** [CMakeFiles/ublox_gps.dir/build.make:132: CMakeFiles/ublox_gps.dir/src/hpg_ref_product.cpp.o] Error 1
+[1.864s] gmake[2]: *** [CMakeFiles/ublox_gps.dir/build.make:76: CMakeFiles/ublox_gps.dir/src/adr_udr_product.cpp.o] Error 1
+[1.866s] gmake[1]: *** [CMakeFiles/Makefile2:222: CMakeFiles/ublox_gps.dir/all] Error 2
+[1.867s] gmake: *** [Makefile:146: all] Error 2
+[1.875s] Invoked command in '/home/ej/Silverfish/ublox_ws/build/ublox_gps' returned '2': AMENT_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs:/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs:/home/ej/Silverfish/ublox_ws/install/ublox_serialization:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs/lib:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ej/Silverfish/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/ej/Silverfish/ublox_ws/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ej/Silverfish/ublox_ws/build/ublox_gps -- -j4 -l4
